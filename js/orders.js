@@ -39,6 +39,14 @@ const position_16 = document.querySelector('.position_16');
 const position_17 = document.querySelector('.position_17');
 const position_18 = document.querySelector('.position_18');
 const position_19 = document.querySelector('.position_19');
+const position_20 = document.querySelector('.position_20');
+const position_21 = document.querySelector('.position_21');
+const position_22 = document.querySelector('.position_22');
+const position_23 = document.querySelector('.position_23');
+const position_24 = document.querySelector('.position_24');
+const position_25 = document.querySelector('.position_25');
+const position_26 = document.querySelector('.position_26');
+const position_27 = document.querySelector('.position_27');
 // Dish name end
 
 // A function responsible for selecting a specific dish name (async)
@@ -672,8 +680,295 @@ position_19.addEventListener("click", async () => {
   // Displaying input value
   position19Value.innerHTML = `${inputElement19.value}`;
 });
+
+
+position_20.addEventListener("click", async () => {
+
+  contenerOrderInfo.style.display = "block";
+
+  // Creating a new div for input start
+  let position20Element = document.createElement('div');
+  let quantity20Element = document.createElement('div');
+    // Creating a new div for input end
+  // Creating a new div for value start
+  let position20Value = document.createElement('div');
+  let quantity20Value = document.createElement('div');
+  // Creating a new div for value end
+
+  // Displaying input start
+  position20Element.innerHTML = `Numbers order: <br><input type="number" id="numbersOrder20" name="numbersOrder20" placeholder="Numbers order" value="21">`;
+  quantity20Element.innerHTML = `Quantity: <br><input type="number" id="quantity20" name="quantity20" placeholder="Quantity"  value="1" >`;
+    // Displaying input end
+// A new element is added to the selected element as its child start
+  document.querySelector('.numbersOrderLocation20').appendChild(position20Element);
+  document.querySelector('.quantityLocation20').appendChild(quantity20Element);
+  document.querySelector('.position20Value').appendChild(position20Value);
+  document.querySelector('.quantity20Value').appendChild(quantity20Value);
+// A new element is added to the selected element as its child end
+
+// defining input
+  let inputElement20 = position20Element.querySelector('input');
+
+  // Displaying input value
+  position20Value.innerHTML = `${inputElement20.value}`;
+});
+
+
+position_21.addEventListener("click", async () => {
+
+  contenerOrderInfo.style.display = "block";
+
+  // Creating a new div for input start
+  let position21Element = document.createElement('div');
+  let quantity21Element = document.createElement('div');
+    // Creating a new div for input end
+  // Creating a new div for value start
+  let position21Value = document.createElement('div');
+  let quantity21Value = document.createElement('div');
+  // Creating a new div for value end
+
+  // Displaying input start
+  position21Element.innerHTML = `Numbers order: <br><input type="number" id="numbersOrder21" name="numbersOrder21" placeholder="Numbers order" value="22">`;
+  quantity21Element.innerHTML = `Quantity: <br><input type="number" id="quantity21" name="quantity21" placeholder="Quantity"  value="1" >`;
+    // Displaying input end
+// A new element is added to the selected element as its child start
+  document.querySelector('.numbersOrderLocation21').appendChild(position21Element);
+  document.querySelector('.quantityLocation21').appendChild(quantity21Element);
+  document.querySelector('.position21Value').appendChild(position21Value);
+  document.querySelector('.quantity21Value').appendChild(quantity21Value);
+// A new element is added to the selected element as its child end
+
+// defining input
+  let inputElement21 = position21Element.querySelector('input');
+
+  // Displaying input value
+  position21Value.innerHTML = `${inputElement21.value}`;
+});
+
+position_22.addEventListener("click", async () => {
+
+  contenerOrderInfo.style.display = "block";
+
+  // Creating a new div for input start
+  let position22Element = document.createElement('div');
+  let quantity22Element = document.createElement('div');
+    // Creating a new div for input end
+  // Creating a new div for value start
+  let position22Value = document.createElement('div');
+  let quantity22Value = document.createElement('div');
+  // Creating a new div for value end
+
+  // Displaying input start
+  position22Element.innerHTML = `Numbers order: <br><input type="number" id="numbersOrder22" name="numbersOrder22" placeholder="Numbers order" value="23">`;
+  quantity22Element.innerHTML = `Quantity: <br><input type="number" id="quantity22" name="quantity22" placeholder="Quantity"  value="1" >`;
+    // Displaying input end
+// A new element is added to the selected element as its child start
+  document.querySelector('.numbersOrderLocation22').appendChild(position22Element);
+  document.querySelector('.quantityLocation22').appendChild(quantity22Element);
+  document.querySelector('.position22Value').appendChild(position22Value);
+  document.querySelector('.quantity22Value').appendChild(quantity22Value);
+// A new element is added to the selected element as its child end
+
+// defining input
+  let inputElement22 = position22Element.querySelector('input');
+
+  // Displaying input value
+  position22Value.innerHTML = `${inputElement22.value}`;
+});
+
+
+position_23.addEventListener("click", async () => {
+
+  contenerOrderInfo.style.display = "block";
+
+  // Creating a new div for input start
+  let position23Element = document.createElement('div');
+  let quantity23Element = document.createElement('div');
+    // Creating a new div for input end
+  // Creating a new div for value start
+  let position23Value = document.createElement('div');
+  let quantity23Value = document.createElement('div');
+  // Creating a new div for value end
+
+  // Displaying input start
+  position23Element.innerHTML = `Numbers order: <br><input type="number" id="numbersOrder23" name="numbersOrder23" placeholder="Numbers order" value="24">`;
+  quantity23Element.innerHTML = `Quantity: <br><input type="number" id="quantity23" name="quantity23" placeholder="Quantity"  value="1" >`;
+    // Displaying input end
+// A new element is added to the selected element as its child start
+  document.querySelector('.numbersOrderLocation23').appendChild(position23Element);
+  document.querySelector('.quantityLocation23').appendChild(quantity23Element);
+  document.querySelector('.position23Value').appendChild(position23Value);
+  document.querySelector('.quantity23Value').appendChild(quantity23Value);
+// A new element is added to the selected element as its child end
+
+// defining input
+  let inputElement23 = position23Element.querySelector('input');
+
+  // Displaying input value
+  position23Value.innerHTML = `${inputElement23.value}`;
+});
+
+
+position_24.addEventListener("click", async () => {
+
+  contenerOrderInfo.style.display = "block";
+
+  // Creating a new div for input start
+  let position24Element = document.createElement('div');
+  let quantity24Element = document.createElement('div');
+    // Creating a new div for input end
+  // Creating a new div for value start
+  let position24Value = document.createElement('div');
+  let quantity24Value = document.createElement('div');
+  // Creating a new div for value end
+
+  // Displaying input start
+  position24Element.innerHTML = `Numbers order: <br><input type="number" id="numbersOrder24" name="numbersOrder24" placeholder="Numbers order" value="25">`;
+  quantity24Element.innerHTML = `Quantity: <br><input type="number" id="quantity24" name="quantity24" placeholder="Quantity"  value="1" >`;
+    // Displaying input end
+// A new element is added to the selected element as its child start
+  document.querySelector('.numbersOrderLocation24').appendChild(position24Element);
+  document.querySelector('.quantityLocation24').appendChild(quantity24Element);
+  document.querySelector('.position24Value').appendChild(position24Value);
+  document.querySelector('.quantity24Value').appendChild(quantity24Value);
+// A new element is added to the selected element as its child end
+
+// defining input
+  let inputElement24 = position24Element.querySelector('input');
+
+  // Displaying input value
+  position24Value.innerHTML = `${inputElement24.value}`;
+});
+
+position_25.addEventListener("click", async () => {
+
+  contenerOrderInfo.style.display = "block";
+
+  // Creating a new div for input start
+  let position25Element = document.createElement('div');
+  let quantity25Element = document.createElement('div');
+    // Creating a new div for input end
+  // Creating a new div for value start
+  let position25Value = document.createElement('div');
+  let quantity25Value = document.createElement('div');
+  // Creating a new div for value end
+
+  // Displaying input start
+  position25Element.innerHTML = `Numbers order: <br><input type="number" id="numbersOrder25" name="numbersOrder25" placeholder="Numbers order" value="26">`;
+  quantity25Element.innerHTML = `Quantity: <br><input type="number" id="quantity25" name="quantity25" placeholder="Quantity"  value="1" >`;
+    // Displaying input end
+// A new element is added to the selected element as its child start
+  document.querySelector('.numbersOrderLocation25').appendChild(position25Element);
+  document.querySelector('.quantityLocation25').appendChild(quantity25Element);
+  document.querySelector('.position25Value').appendChild(position25Value);
+  document.querySelector('.quantity25Value').appendChild(quantity25Value);
+// A new element is added to the selected element as its child end
+
+// defining input
+  let inputElement25 = position25Element.querySelector('input');
+
+  // Displaying input value
+  position25Value.innerHTML = `${inputElement25.value}`;
+});
+
+
+position_26.addEventListener("click", async () => {
+
+  contenerOrderInfo.style.display = "block";
+
+  // Creating a new div for input start
+  let position26Element = document.createElement('div');
+  let quantity26Element = document.createElement('div');
+    // Creating a new div for input end
+  // Creating a new div for value start
+  let position26Value = document.createElement('div');
+  let quantity26Value = document.createElement('div');
+  // Creating a new div for value end
+
+  // Displaying input start
+  position26Element.innerHTML = `Numbers order: <br><input type="number" id="numbersOrder26" name="numbersOrder26" placeholder="Numbers order" value="27">`;
+  quantity26Element.innerHTML = `Quantity: <br><input type="number" id="quantity26" name="quantity26" placeholder="Quantity"  value="1" >`;
+    // Displaying input end
+// A new element is added to the selected element as its child start
+  document.querySelector('.numbersOrderLocation26').appendChild(position26Element);
+  document.querySelector('.quantityLocation26').appendChild(quantity26Element);
+  document.querySelector('.position26Value').appendChild(position26Value);
+  document.querySelector('.quantity26Value').appendChild(quantity26Value);
+// A new element is added to the selected element as its child end
+
+// defining input
+  let inputElement26 = position26Element.querySelector('input');
+
+  // Displaying input value
+  position26Value.innerHTML = `${inputElement26.value}`;
+});
+
+
+position_27.addEventListener("click", async () => {
+
+  contenerOrderInfo.style.display = "block";
+
+  // Creating a new div for input start
+  let position27Element = document.createElement('div');
+  let quantity27Element = document.createElement('div');
+    // Creating a new div for input end
+  // Creating a new div for value start
+  let position27Value = document.createElement('div');
+  let quantity27Value = document.createElement('div');
+  // Creating a new div for value end
+
+  // Displaying input start
+  position27Element.innerHTML = `Numbers order: <br><input type="number" id="numbersOrder27" name="numbersOrder27" placeholder="Numbers order" value="28">`;
+  quantity27Element.innerHTML = `Quantity: <br><input type="number" id="quantity27" name="quantity27" placeholder="Quantity"  value="1" >`;
+    // Displaying input end
+// A new element is added to the selected element as its child start
+  document.querySelector('.numbersOrderLocation27').appendChild(position27Element);
+  document.querySelector('.quantityLocation27').appendChild(quantity27Element);
+  document.querySelector('.position27Value').appendChild(position27Value);
+  document.querySelector('.quantity27Value').appendChild(quantity27Value);
+// A new element is added to the selected element as its child end
+
+// defining input
+  let inputElement27 = position27Element.querySelector('input');
+
+  // Displaying input value
+  position27Value.innerHTML = `${inputElement27.value}`;
+});
+
+
+
+position_28.addEventListener("click", async () => {
+
+  contenerOrderInfo.style.display = "block";
+
+  // Creating a new div for input start
+  let position28Element = document.createElement('div');
+  let quantity28Element = document.createElement('div');
+    // Creating a new div for input end
+  // Creating a new div for value start
+  let position28Value = document.createElement('div');
+  let quantity28Value = document.createElement('div');
+  // Creating a new div for value end
+
+  // Displaying input start
+  position28Element.innerHTML = `Numbers order: <br><input type="number" id="numbersOrder28" name="numbersOrder28" placeholder="Numbers order" value="29">`;
+  quantity28Element.innerHTML = `Quantity: <br><input type="number" id="quantity28" name="quantity28" placeholder="Quantity"  value="1" >`;
+    // Displaying input end
+// A new element is added to the selected element as its child start
+  document.querySelector('.numbersOrderLocation28').appendChild(position28Element);
+  document.querySelector('.quantityLocation28').appendChild(quantity28Element);
+  document.querySelector('.position28Value').appendChild(position28Value);
+  document.querySelector('.quantity28Value').appendChild(quantity28Value);
+// A new element is added to the selected element as its child end
+
+// defining input
+  let inputElement28 = position28Element.querySelector('input');
+
+  // Displaying input value
+  position28Value.innerHTML = `${inputElement28.value}`;
+});
 const textStatus = document.querySelector('.textStatus');
-document.querySelector('#reservationForm').addEventListener('submit', async function(e) {
+document.querySelector('#ordersForm').addEventListener('submit', async function(e) {
   e.preventDefault();
   clearInterval(orderCounter )
   const name = document.querySelector('#name').value;
@@ -749,6 +1044,33 @@ document.querySelector('#reservationForm').addEventListener('submit', async func
 
       formData.append('position19Value', document.querySelector('#numbersOrder19').value);
       formData.append('quantity19Value', document.querySelector('#quantity19').value);
+      formData.append('position20Value', document.querySelector('#numbersOrder20').value);
+      formData.append('quantity20Value', document.querySelector('#quantity20').value);
+
+      formData.append('position21Value', document.querySelector('#numbersOrder21').value);
+      formData.append('quantity21Value', document.querySelector('#quantity21').value);
+
+      formData.append('position22Value', document.querySelector('#numbersOrder22').value);
+      formData.append('quantity22Value', document.querySelector('#quantity22').value);
+
+
+      formData.append('position23Value', document.querySelector('#numbersOrder23').value);
+      formData.append('quantity23Value', document.querySelector('#quantity23').value);
+
+      formData.append('position24Value', document.querySelector('#numbersOrder24').value);
+      formData.append('quantity24Value', document.querySelector('#quantity24').value);
+
+      formData.append('position25Value', document.querySelector('#numbersOrder25').value);
+      formData.append('quantity25Value', document.querySelector('#quantity25').value);
+
+      formData.append('position26Value', document.querySelector('#numbersOrder26').value);
+      formData.append('quantity26Value', document.querySelector('#quantity26').value);
+
+      formData.append('position27Value', document.querySelector('#numbersOrder27').value);
+      formData.append('quantity27Value', document.querySelector('#quantity27').value);
+
+      formData.append('position28Value', document.querySelector('#numbersOrder28').value);
+      formData.append('quantity28Value', document.querySelector('#quantity28').value);
       formData.append('message', message);
 
       try {
@@ -761,10 +1083,10 @@ document.querySelector('#reservationForm').addEventListener('submit', async func
           if (!data.includes('This date is already booked')) {
 
     
-              const emailResponse = await Email.send({
-                  SecureToken: '',
-                  To: '',
-                  From: '',
+            const emailResponse = await Email.send({
+              SecureToken: '',
+              To: '',
+              From: '',
                   Subject: `Nowe zamówienie numer: ${orderCode}`,
                   Body: `
                       Imię: ${name}<br><br>
@@ -827,7 +1149,35 @@ document.querySelector('#reservationForm').addEventListener('submit', async func
                         
                                                                                        Numer zamówienia 20: ${document.querySelector('#numbersOrder19').value}<br><br>
                         Ilość 20:  ${document.querySelector('#quantity19').value}<br><br><br><br>
+
+
+                                                                                                     Numer zamówienia 21: ${document.querySelector('#numbersOrder20').value}<br><br>
+                        Ilość 21:  ${document.querySelector('#quantity20').value}<br><br><br><br>
+
+                                                                                                          Numer zamówienia 22: ${document.querySelector('#numbersOrder21').value}<br><br>
+                        Ilość 22:  ${document.querySelector('#quantity21').value}<br><br><br><br>
+
+                                                                                                          Numer zamówienia 23: ${document.querySelector('#numbersOrder22').value}<br><br>
+                        Ilość 23:  ${document.querySelector('#quantity22').value}<br><br><br><br>
+
+
+                                                                                                          Numer zamówienia 24: ${document.querySelector('#numbersOrder23').value}<br><br>
+                        Ilość 24:  ${document.querySelector('#quantity23').value}<br><br><br><br>
+
+                                                                                                                 Numer zamówienia 25: ${document.querySelector('#numbersOrder24').value}<br><br>
+                        Ilość 25:  ${document.querySelector('#quantity24').value}<br><br><br><br>
+
+                                                                                                                            Numer zamówienia 26: ${document.querySelector('#numbersOrder25').value}<br><br>
+                        Ilość 26:  ${document.querySelector('#quantity25').value}<br><br><br><br>
+
+                        
+                                                                                                                            Numer zamówienia 27: ${document.querySelector('#numbersOrder26').value}<br><br>
+                        Ilość 27:  ${document.querySelector('#quantity26').value}<br><br><br><br>
                    
+                                                                                                                                                    Numer zamówienia 28: ${document.querySelector('#numbersOrder27').value}<br><br>
+                        Ilość 28:  ${document.querySelector('#quantity27').value}<br><br><br><br>
+                                                                                                                                                       Numer zamówienia 29: ${document.querySelector('#numbersOrder28').value}<br><br>
+                        Ilość 29:  ${document.querySelector('#quantity28').value}<br><br><br><br>
                   `
               });
 
@@ -853,7 +1203,7 @@ document.querySelector('#reservationForm').addEventListener('submit', async func
           }
       } catch (error) {
           console.error('Error:', error);
-          textStatus.innerHTML = 'An error occurred while sending the reservation.';
+          textStatus.innerHTML = 'An error occurred while sending the orders.';
           textStatus.style.color = 'red';
       }
   }
