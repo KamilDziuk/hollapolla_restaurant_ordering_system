@@ -43,7 +43,7 @@ border-radius: 2%;
   
   .position0Value,.position1Value,.position2Value,.position3Value,.position4Value,.position5Value, .position6Value, .position7Value, .position8Value, .position9Value, 
   .position10Value, .position11Value, .position12Value, .position13Value, .position14Value,  .position15Value, .position16Value, .position17Value, .position18Value, .position19Value,
-  .position20Value, .position21Value,   .position22Value,   .position23Value,   .position24Value,   .position25Value,   .position26Value,   .position27Value,   .position28Value             
+  .position20Value, .position21Value,   .position22Value,   .position23Value,   .position24Value,   .position25Value,   .position26Value,   .position27Value,   .position28Value, .position29Value, .position30Value, .position31Value, .position32Value, .position33Value, .position34Value           
 {
 color: #ffffff00!important;
 }
@@ -417,6 +417,20 @@ z-index: 2;
     height: auto;
     z-index: 2;
   }
+
+
+
+  #imageOrders4
+  {
+    position: absolute;
+
+
+
+    margin-top: 580%;
+    width: 100% !important;
+    height: auto;
+    z-index: 2;
+  }
   #imageOrdersSvg0
   {
     position: absolute;
@@ -461,6 +475,19 @@ z-index: 3;
 
 
     margin-top: 435%;
+    width: 100% !important;
+    height: auto;
+    z-index: 3;
+  }
+
+
+  #imageOrdersSvg4
+  {
+    position: absolute;
+
+
+
+    margin-top: 580%;
     width: 100% !important;
     height: auto;
     z-index: 3;
