@@ -3,11 +3,18 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Orders</title>
+  <title>Holla Polla - Orders</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/orders.css">
-  <link rel="icon" type="image/jpg" href="image/browserpictogram.jpg">
+  <link rel="icon" type="image/png" href="image/browserpictogram.png">
+  <link rel="apple-touch-icon" href="image/icon-96x96.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="image/icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="image/icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="image/icon-180x180.png">
+  <link rel="manifest" href="manifest.json">
+  
+  
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -34,7 +41,7 @@
 </li>
 
 <li class="nav-item">
-<a href="#contact" class="nav-link">Kontakt</a>      
+  <a style="color:#cdcdcd"   onclick="window.location.href='tel:+31 6 58723606'">+31 6 58723606</a>    
 </li>
 </li>
 <li class="nav-item">
@@ -75,15 +82,15 @@
 
 <form id="ordersForm">
 <br>  <br>
-  <input type="text" id="name" name="name" placeholder=" Last name">
+  <input type="text" id="name" name="name" placeholder=" Last name" required>
 
   <br>
-  <input type="email" id="email" name="email" placeholder="Email">
+  <input type="email" id="email" name="email" placeholder="Email" required>
   <br>
-  <input type="number" id="phone" name="phone" placeholder=" Phone">
+  <input type="number" id="phone" name="phone" placeholder=" Phone" required>
   <br>
-  <textarea    rows="2" cols="10"  id="addres" name="addres" placeholder=" Addres"></textarea>
-<br>
+  <textarea    rows="2" cols="10"  id="addres" name="addres" placeholder=" Addres" required></textarea>
+
   <div id="contenerOrderInfo">
   <div class="numbersOrderLocation0"> </div>
   <div class="quantityLocation0"> </div>
@@ -677,7 +684,21 @@
 <textarea    rows="4" cols="50"  id="message" name="message" placeholder=" Message"></textarea>
 
   <input type="submit" id="submit" value=" Submit">
+  <div class="information" style="color: #be8040;">Accept the rules to send</div> 
+  <label class="containerCheck">I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose and to the extent necessary to process the application.
+    <input type="checkbox"  name="checkbox" required>
+    <span class="checkmark"></span>
+  </label>
+  <label class="containerCheck">I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose of sending me commercial offers for the company's own products electronically.
+    <input type="checkbox" name="checkbox" required>
+    <span class="checkmark"></span>
+  </label>
+  <label class="containerCheck"> I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose of telephone contact by the company's representatives in matters related to the commercial offer for its own products.
+    <input type="checkbox" name="checkbox" required>
+    <span class="checkmark"></span>
+  </label>
 
+  </div> 
 </form>
 
 <div id="contenerImage">

@@ -86,20 +86,16 @@ color: #ffffff00!important;
   padding: 0;
   margin: 0;
   }
- #contenerOrderInfo
-  {
-  
-position: relative;
-width: 100%;
-margin-top: 5%;
-height: 20% !important;
-overflow: auto !important;
-text-align: center;
-border: solid 2px rgb(255, 255, 255) !important;
-left: 0%;
-
+  #contenerOrderInfo {
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+    height: 20vh; 
+    overflow: auto !important;
+    text-align: center;
+    border: solid 2px rgb(255, 255, 255) !important;
+    left: 0;
   }
- 
 
   /* heder */
   
@@ -366,19 +362,19 @@ left: 0%;
     margin-bottom: 2%;
     margin-top: 2%;
   }
-#contenerImage
-{
-  position: absolute;
-
-    left: 30%;
-    margin-top: -42% ;
-    margin-bottom: 0% ;
-transform: translateX(-50%);
-width: 30% !important;
-height: 75%;
-overflow: auto;
-z-index: 2;
-}
+  #contenerImage
+  {
+    position: absolute;
+  
+      left: 30%;
+      margin-top: 10% ;
+      margin-bottom: 0% ;
+  transform: translateX(-50%);
+  width: 30% !important;
+  height: 100%;
+  /* overflow: auto; */
+  z-index: 2;
+  }
   #imageOrders0 
   {
     position: absolute;
@@ -582,19 +578,17 @@ z-index: 3;
     z-index: 3;
   }
 
-
   form
 {
-position: relative;
+position: absolute;
 
 background-color: #26262632;
 backdrop-filter : blur(15px);
 left: 70%;
 transform: translateX(-50%);
-margin-bottom: 5%;
-width: 300px;
-height: 550px;
-margin-top: 8%;
+margin-bottom: 0%;
+width: 350px;
+margin-top: 7%;
 z-index: 22 !important;
 
 }
@@ -1073,7 +1067,82 @@ height: 130px;
   left: 26%;
 
 }
-    
+     /* The containerCheckCheck */
+  .containerCheck {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+  }
+  
+  /* Hide the browser's default radio button */
+  .containerCheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+  
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containerCheck:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .containerCheck input:checked ~ .checkmark {
+    background-color: #be8040;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .containerCheck input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .containerCheck .checkmark:after {
+     top: 5px;
+    left: 5px;
+    width: 5px;
+    height: 5px;
+  
+    background: white;
+  }
+
+  .information
+{
+  position: relative;
+  padding-left: 5%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 0%;
+  font-size: 17px;
+  text-align: left;
+
+}
   @media(max-width:1200px){
     .logoHP
   {
@@ -1115,11 +1184,11 @@ height: 130px;
       top             : 70px;
       gap             : 0;
       flex-direction  : column;
-      background-color: #26262632;
+      background-color: #262626;
       width           : 100%;
       text-align      : center;
       transition      : 0.3s;
-      backdrop-filter : blur(15px) !important; 
+       
       z-index:960;
     }
     
@@ -1142,15 +1211,22 @@ height: 130px;
 
 
     @media(max-width:950px){
+      .information
+      {
+        position: relative;
 
+        padding-bottom: 1%;
+     
+      }
 
       #contenerImage
       {
         position: absolute;
       
           left: 50%;
-          margin-top: 2% ;
+          margin-top: 10% ;
           margin-bottom: 0% ;
+          
       transform: translateX(-50%);
       width: 95% !important;
       height: 50%;
@@ -1158,35 +1234,31 @@ height: 130px;
       z-index: 2;
       }
 
-    }
 
-
-    @media(max-width:800px){
 
       #contenerOrderInfo
       {
       
-    margin-top: -10%;
+    margin-top: 10%;
       }
      
     
 
 
 
-  form
-{
-position: relative;
-text-align: center;
-background-color: #26262632;
-backdrop-filter : blur(15px);
-left: 50%;
-transform: translateX(-50%);
-margin-bottom: 0%;
-width: 250px;
-height: 380px;
-margin-top: 14%;
-
-}
+      form
+      {
+      position: relative;
+      text-align: center;
+      background-color: #26262632;
+      backdrop-filter : blur(15px);
+      left: 50%;
+      transform: translateX(-50%);
+      margin-bottom: 0%;
+      width: 250px;
+      margin-top: 35%;
+      
+      }
 
 
 input,textarea

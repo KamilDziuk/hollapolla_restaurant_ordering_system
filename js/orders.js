@@ -2214,6 +2214,10 @@ Ilość 65:  ${document.querySelector('#quantity64').value}<br><br><br><br>
 Numer zamówienia 66: ${document.querySelector('#numbersOrder65').value}<br><br>
 Ilość 66:  ${document.querySelector('#quantity65').value}<br><br><br><br>
 
+    Zgody: <br>
+                       zgoda0: I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose and to the extent necessary to process the application.<br><br>
+zgoda1: I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose of sending me commercial offers for the company's own products electronically.<br><br>
+zgoda3: I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose of telephone contact by the company's representatives in matters related to the commercial offer for its own products.
 
                         
                   `
@@ -2229,7 +2233,7 @@ Ilość 66:  ${document.querySelector('#quantity65').value}<br><br><br><br>
                     textStatus.style.display = "none";
                     orderCodeText.style.display = "none";
                    
-                  },5000)
+                  },10000)
               } else {
                   textStatus.innerHTML = '<br><br>Failed to send the message.<br> This may be due to too many messages being sent at once.<br> Please send your message via hollapolla66@gmail.com <br><br>';
                   textStatus.style.color = 'red';
