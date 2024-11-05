@@ -90,7 +90,7 @@ color: #ffffff00!important;
     position: relative;
     width: 100%;
     margin-top: 5%;
-    height: 20vh; 
+    height: 15.5vh; 
     overflow: auto !important;
     text-align: center;
     border: solid 2px rgb(255, 255, 255) !important;
@@ -619,7 +619,10 @@ svg path:hover {
     filter: drop-shadow(2px 2px 5px rgb(255, 255, 255)); 
 	}
 }
-
+input
+{
+  padding: 1%;
+}
 
 input::placeholder {
   color: #ffffff; 
