@@ -2,7 +2,7 @@
   "background_color": "#be8040",
   "dir": "auto",
   "display": "standalone",
-  "name": "Holla Polla Orders",
+  "name": "HollaPolla Orders",
   "orientation": "any",
   "scope": "/",
   "short_name": "pollapolla",
@@ -36,7 +36,7 @@
     }
   ],
   "id": "pollapolla ",
-  "description": "Holla Polla - Orders",
+  "description": "HollaPolla - Orders",
   "lang": "nl",
   "categories": [
     "business"
