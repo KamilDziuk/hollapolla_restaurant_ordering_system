@@ -1857,7 +1857,7 @@ document.querySelector('#ordersForm').addEventListener('submit', async function(
                       Telefon: ${phone}<br><br>
                       Email: ${email}<br><br>
                       Adres: ${addres}<br><br>
-                      Kod zamówenia: ${orderCode} <br><br>
+                      Kod zamówienia: ${orderCode} <br><br>
                          Wiadomość od klienta: ${message}<br><br>
                       Numer zamówienia 01: ${document.querySelector('#numbersOrder0').value}<br><br>
                         Ilość 01:  ${document.querySelector('#quantity0').value}<br><br><br><br>
