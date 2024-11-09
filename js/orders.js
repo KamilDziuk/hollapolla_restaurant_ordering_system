@@ -14,8 +14,8 @@ orderCodeText.innerHTML = `Order code: ${orderCode}`;
 },1000);
 
 
-
-
+let displayInfo = document.querySelector('.display');
+displayInfo.style.display = "none";
 
 
 // Dish name start
@@ -47,8 +47,11 @@ const position_22 = document.querySelector('.position_22');
 const position_23 = document.querySelector('.position_23');
 const position_24 = document.querySelector('.position_24');
 const position_25 = document.querySelector('.position_25');
-const position_26 = document.querySelector('.position_26');
-const position_27 = document.querySelector('.position_27');
+const position_26A = document.querySelector('.position_26A');
+const position_26B = document.querySelector('.position_26B');
+const position_26C = document.querySelector('.position_26C');
+const position_27A = document.querySelector('.position_27A');
+const position_27B = document.querySelector('.position_27B');
 const position_28 = document.querySelector('.position_28');
 const position_29 = document.querySelector('.position_29');
 const position_30 = document.querySelector('.position_30');
@@ -95,6 +98,8 @@ const position_66 = document.querySelector('.position_66');
 // A function responsible for selecting a specific dish name (async)
 position_0.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
 
   contenerOrderInfo.style.display = "block";
   // Creating a new div for input start
@@ -126,6 +131,8 @@ position_0.addEventListener("click", async () => {
 
 // A function responsible for selecting a specific dish name (async)
 position_1.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -160,6 +167,8 @@ position_1.addEventListener("click", async () => {
 // A function responsible for selecting a specific dish name (async)
 position_2.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
 
   contenerOrderInfo.style.display = "block";
   // Creating a new div for input start
@@ -191,6 +200,8 @@ position_2.addEventListener("click", async () => {
 
 
 position_3.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -224,6 +235,8 @@ position_3.addEventListener("click", async () => {
 
 position_4.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -256,6 +269,8 @@ position_4.addEventListener("click", async () => {
 
 position_5.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -286,6 +301,8 @@ position_5.addEventListener("click", async () => {
 });
 
 position_6.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -319,6 +336,8 @@ position_6.addEventListener("click", async () => {
 
 position_7.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -349,6 +368,8 @@ position_7.addEventListener("click", async () => {
 });
 
 position_8.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -381,6 +402,8 @@ position_8.addEventListener("click", async () => {
 
 position_9.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -411,6 +434,8 @@ position_9.addEventListener("click", async () => {
 });
 
 position_10.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -444,6 +469,8 @@ position_10.addEventListener("click", async () => {
 
 position_11.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -475,6 +502,8 @@ position_11.addEventListener("click", async () => {
 
 
 position_12.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -508,6 +537,8 @@ position_12.addEventListener("click", async () => {
 
 position_13.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -538,6 +569,8 @@ position_13.addEventListener("click", async () => {
 });
 
 position_14.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -571,6 +604,8 @@ position_14.addEventListener("click", async () => {
 
 position_15.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -601,6 +636,8 @@ position_15.addEventListener("click", async () => {
 });
 
 position_16.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -633,6 +670,8 @@ position_16.addEventListener("click", async () => {
 
 position_17.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -663,6 +702,8 @@ position_17.addEventListener("click", async () => {
 });
 
 position_18.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -695,6 +736,8 @@ position_18.addEventListener("click", async () => {
 
 
 position_19A.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
   contenerOrderInfo.style.display = "block";
 
  
@@ -719,6 +762,8 @@ position_19A.addEventListener("click", async () => {
 
 
 position_19B.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
   contenerOrderInfo.style.display = "block";
 
 
@@ -744,6 +789,8 @@ position_19B.addEventListener("click", async () => {
 
 
 position_19C.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
   contenerOrderInfo.style.display = "block";
 
   let position19CElement = document.createElement('div');
@@ -767,6 +814,8 @@ position_19C.addEventListener("click", async () => {
 
 
 position_20.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -800,6 +849,8 @@ position_20.addEventListener("click", async () => {
 
 position_21.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -830,6 +881,8 @@ position_21.addEventListener("click", async () => {
 });
 
 position_22.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -863,6 +916,8 @@ position_22.addEventListener("click", async () => {
 
 position_23.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -893,6 +948,8 @@ position_23.addEventListener("click", async () => {
 });
 
 position_24.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -925,6 +982,8 @@ position_24.addEventListener("click", async () => {
 
 position_25.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -954,71 +1013,125 @@ position_25.addEventListener("click", async () => {
   position25Value.innerHTML = `${inputElement25.value}`;
 });
 
-position_26.addEventListener("click", async () => {
 
+position_26A.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
   contenerOrderInfo.style.display = "block";
 
-  // Creating a new div for input start
-  let position26Element = document.createElement('div');
-  let quantity26Element = document.createElement('div');
-    // Creating a new div for input end
-  // Creating a new div for value start
-  let position26Value = document.createElement('div');
-  let quantity26Value = document.createElement('div');
-  // Creating a new div for value end
+  let position26AElement = document.createElement('div');
+  let quantity26AElement = document.createElement('div');
+  let position26AValue = document.createElement('div');
+  let quantity26AValue = document.createElement('div');
 
-  // Displaying input start
-  position26Element.innerHTML = `Numbers order: <input type="text" id="numbersOrder26" name="numbersOrder26" placeholder="Numbers order" value="Order number: 27,">`;
-  quantity26Element.innerHTML = `Quantity: <input type="text" id="quantity26" name="quantity26"  placeholder="Quantity"  value=" Quantity: 1;">`;
-    // Displaying input end
-// A new element is added to the selected element as its child start
-  document.querySelector('.numbersOrderLocation26').appendChild(position26Element);
-  document.querySelector('.quantityLocation26').appendChild(quantity26Element);
-  document.querySelector('.position26Value').appendChild(position26Value);
-  document.querySelector('.quantity26Value').appendChild(quantity26Value);
-// A new element is added to the selected element as its child end
+  position26AElement.innerHTML = `Numbers order: <input type="text" id="numbersOrder26A" name="numbersOrder26A" placeholder="Numbers order" value="Order number:27A,">`;
+  quantity26AElement.innerHTML = `Quantity: <input type="text" id="quantity26A" name="quantity26A"  placeholder="Quantity"  value=" Quantity: 1;">`;
 
-// defining input
-  let inputElement26 = position26Element.querySelector('input');
+  document.querySelector('.numbersOrderLocation26A').appendChild(position26AElement);
+  document.querySelector('.quantityLocation26A').appendChild(quantity26AElement);
+  document.querySelector('.position26AValue').appendChild(position26AValue);
+  document.querySelector('.quantity26AValue').appendChild(quantity26AValue);
 
-  // Displaying input value
-  position26Value.innerHTML = `${inputElement26.value}`;
+  let inputElement26A = position26AElement.querySelector('input');
+  position26AValue.innerHTML = `${inputElement26A.value}`;
 });
 
-position_27.addEventListener("click", async () => {
 
+position_26B.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
   contenerOrderInfo.style.display = "block";
 
-  // Creating a new div for input start
-  let position27Element = document.createElement('div');
-  let quantity27Element = document.createElement('div');
-    // Creating a new div for input end
-  // Creating a new div for value start
-  let position27Value = document.createElement('div');
-  let quantity27Value = document.createElement('div');
-  // Creating a new div for value end
+  let position26BElement = document.createElement('div');
+  let quantity26BElement = document.createElement('div');
+  let position26BValue = document.createElement('div');
+  let quantity26BValue = document.createElement('div');
 
-  // Displaying input start
-  position27Element.innerHTML = `Numbers order: <input type="text" id="numbersOrder27" name="numbersOrder27" placeholder="Numbers order" value="Order number: 28,">`;
-  quantity27Element.innerHTML = `Quantity: <input type="text" id="quantity27" name="quantity27"  placeholder="Quantity"  value=" Quantity: 1;">`;
-    // Displaying input end
-// A new element is added to the selected element as its child start
-  document.querySelector('.numbersOrderLocation27').appendChild(position27Element);
-  document.querySelector('.quantityLocation27').appendChild(quantity27Element);
-  document.querySelector('.position27Value').appendChild(position27Value);
-  document.querySelector('.quantity27Value').appendChild(quantity27Value);
-// A new element is added to the selected element as its child end
+  position26BElement.innerHTML = `Numbers order: <input type="text" id="numbersOrder26B" name="numbersOrder26B" placeholder="Numbers order" value="Order number:27B,">`;
+  quantity26BElement.innerHTML = `Quantity: <input type="text" id="quantity26B" name="quantity26B"  placeholder="Quantity"  value=" Quantity: 1;">`;
 
-// defining input
-  let inputElement27 = position27Element.querySelector('input');
+  document.querySelector('.numbersOrderLocation26B').appendChild(position26BElement);
+  document.querySelector('.quantityLocation26B').appendChild(quantity26BElement);
+  document.querySelector('.position26BValue').appendChild(position26BValue);
+  document.querySelector('.quantity26BValue').appendChild(quantity26BValue);
 
-  // Displaying input value
-  position27Value.innerHTML = `${inputElement27.value}`;
+  let inputElement26B = position26BElement.querySelector('input');
+  position26BValue.innerHTML = `${inputElement26B.value}`;
+});
+
+
+position_26C.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
+  contenerOrderInfo.style.display = "block";
+
+  let position26CElement = document.createElement('div');
+  let quantity26CElement = document.createElement('div');
+  let position26CValue = document.createElement('div');
+  let quantity26CValue = document.createElement('div');
+
+  position26CElement.innerHTML = `Numbers order: <input type="text" id="numbersOrder26C" name="numbersOrder26C" placeholder="Numbers order" value="Order number:27C,">`;
+  quantity26CElement.innerHTML = `Quantity: <input type="text" id="quantity26C" name="quantity26C"  placeholder="Quantity"  value=" Quantity: 1;">`;
+
+  document.querySelector('.numbersOrderLocation26C').appendChild(position26CElement);
+  document.querySelector('.quantityLocation26C').appendChild(quantity26CElement);
+  document.querySelector('.position26CValue').appendChild(position26CValue);
+  document.querySelector('.quantity26CValue').appendChild(quantity26CValue);
+
+  let inputElement26C = position26CElement.querySelector('input');
+  position26CValue.innerHTML = `${inputElement26C.value}`;
+});
+
+position_27A.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
+  contenerOrderInfo.style.display = "block";
+
+  let position27AElement = document.createElement('div');
+  let quantity27AElement = document.createElement('div');
+  let position27AValue = document.createElement('div');
+  let quantity27AValue = document.createElement('div');
+
+  position27AElement.innerHTML = `Numbers order: <input type="text" id="numbersOrder27A" name="numbersOrder27A" placeholder="Numbers order" value="Order number:28A,">`;
+  quantity27AElement.innerHTML = `Quantity: <input type="text" id="quantity27A" name="quantity27A"  placeholder="Quantity"  value=" Quantity: 1;">`;
+
+  document.querySelector('.numbersOrderLocation27A').appendChild(position27AElement);
+  document.querySelector('.quantityLocation27A').appendChild(quantity27AElement);
+  document.querySelector('.position27AValue').appendChild(position27AValue);
+  document.querySelector('.quantity27AValue').appendChild(quantity27AValue);
+
+  let inputElement27A = position27AElement.querySelector('input');
+  position27AValue.innerHTML = `${inputElement27A.value}`;
+});
+
+
+position_27B.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
+  contenerOrderInfo.style.display = "block";
+
+  let position27BElement = document.createElement('div');
+  let quantity27BElement = document.createElement('div');
+  let position27BValue = document.createElement('div');
+  let quantity27BValue = document.createElement('div');
+
+  position27BElement.innerHTML = `Numbers order: <input type="text" id="numbersOrder27B" name="numbersOrder27B" placeholder="Numbers order" value="Order number:28B,">`;
+  quantity27BElement.innerHTML = `Quantity: <input type="text" id="quantity27B" name="quantity27B"  placeholder="Quantity"  value=" Quantity: 1;">`;
+
+  document.querySelector('.numbersOrderLocation27B').appendChild(position27BElement);
+  document.querySelector('.quantityLocation27B').appendChild(quantity27BElement);
+  document.querySelector('.position27BValue').appendChild(position27BValue);
+  document.querySelector('.quantity27BValue').appendChild(quantity27BValue);
+
+  let inputElement27B = position27BElement.querySelector('input');
+  position27BValue.innerHTML = `${inputElement27B.value}`;
 });
 
 
 
 position_28.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -1052,6 +1165,8 @@ position_28.addEventListener("click", async () => {
 
 position_29.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -1083,6 +1198,8 @@ position_29.addEventListener("click", async () => {
 
 
 position_30.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -1116,6 +1233,8 @@ position_30.addEventListener("click", async () => {
 
 position_31.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -1147,6 +1266,8 @@ position_31.addEventListener("click", async () => {
 
 
 position_32.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -1180,6 +1301,8 @@ position_32.addEventListener("click", async () => {
 
 position_33.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -1210,6 +1333,8 @@ position_33.addEventListener("click", async () => {
 });
 
 position_34.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -1242,6 +1367,8 @@ position_34.addEventListener("click", async () => {
 
 position_35.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -1272,6 +1399,8 @@ position_35.addEventListener("click", async () => {
 });
 
 position_36.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -1305,6 +1434,8 @@ position_36.addEventListener("click", async () => {
 
 position_37.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -1337,6 +1468,8 @@ position_37.addEventListener("click", async () => {
 
 position_38.addEventListener("click", async () => {
 
+  displayInfo.style.display = "none";
+
   contenerOrderInfo.style.display = "block";
 
   // Creating a new div for input start
@@ -1367,6 +1500,8 @@ position_38.addEventListener("click", async () => {
 });
 
 position_39.addEventListener("click", async () => {
+
+  displayInfo.style.display = "none";
 
   contenerOrderInfo.style.display = "block";
 
@@ -1455,10 +1590,16 @@ if (document.querySelector('#numbersOrder0').value == undefined ||
     document.querySelector('#quantity24').value == undefined ||
     document.querySelector('#numbersOrder25').value == undefined || 
     document.querySelector('#quantity25').value == undefined ||
-    document.querySelector('#numbersOrder26').value == undefined || 
-    document.querySelector('#quantity26').value == undefined ||
-    document.querySelector('#numbersOrder27').value == undefined || 
-    document.querySelector('#quantity27').value == undefined ||
+    document.querySelector('#numbersOrder26A').value == undefined || 
+    document.querySelector('#quantity26A').value == undefined ||
+    document.querySelector('#numbersOrder26B').value == undefined || 
+    document.querySelector('#quantity26B').value == undefined ||
+    document.querySelector('#numbersOrder26C').value == undefined || 
+    document.querySelector('#quantity26C').value == undefined ||
+    document.querySelector('#numbersOrder27A').value == undefined || 
+    document.querySelector('#quantity27A').value == undefined ||
+    document.querySelector('#numbersOrder27B').value == undefined || 
+    document.querySelector('#quantity27B').value == undefined ||
     document.querySelector('#numbersOrder28').value == undefined || 
     document.querySelector('#quantity28').value == undefined ||
     document.querySelector('#numbersOrder29').value == undefined || 
@@ -1542,10 +1683,16 @@ if (document.querySelector('#numbersOrder0').value == undefined ||
   document.querySelector('#quantity24').value = " ";
   document.querySelector('#numbersOrder25').value = " ";
   document.querySelector('#quantity25').value = " ";
-  document.querySelector('#numbersOrder26').value = " ";
-  document.querySelector('#quantity26').value = " ";
-  document.querySelector('#numbersOrder27').value = " ";
-  document.querySelector('#quantity27').value = " ";
+  document.querySelector('#numbersOrder26A').value = " ";
+  document.querySelector('#quantity26A').value = " ";
+  document.querySelector('#numbersOrder26B').value = " ";
+  document.querySelector('#quantity26B').value = " ";
+  document.querySelector('#numbersOrder26C').value = " ";
+  document.querySelector('#quantity26C').value = " ";
+  document.querySelector('#numbersOrder27A').value = " ";
+  document.querySelector('#quantity27A').value = " ";
+  document.querySelector('#numbersOrder27B').value = " ";
+  document.querySelector('#quantity27B').value = " ";
   document.querySelector('#numbersOrder28').value = " ";
   document.querySelector('#quantity28').value = " ";
   document.querySelector('#numbersOrder29').value = " ";
@@ -1588,13 +1735,107 @@ document.querySelector('#ordersForm').addEventListener('submit', async function(
   const email = document.querySelector('#email').value;
   const message = document.querySelector('#message').value;
   
-
+if(  document.querySelector('#numbersOrder0').value ==" " &&
+document.querySelector('#quantity0').value ==" " &&
+document.querySelector('#numbersOrder1').value ==" " &&
+document.querySelector('#quantity1').value ==" " &&
+document.querySelector('#numbersOrder2').value ==" " &&
+document.querySelector('#quantity2').value ==" " &&
+document.querySelector('#numbersOrder3').value ==" " &&
+document.querySelector('#quantity3').value ==" " &&
+document.querySelector('#numbersOrder4').value ==" " &&
+document.querySelector('#quantity4').value ==" " &&
+document.querySelector('#numbersOrder5').value ==" " &&
+document.querySelector('#quantity5').value ==" " &&
+document.querySelector('#numbersOrder6').value ==" " &&
+document.querySelector('#quantity6').value ==" " &&
+document.querySelector('#numbersOrder7').value ==" " &&
+document.querySelector('#quantity7').value ==" " &&
+document.querySelector('#numbersOrder8').value ==" " &&
+document.querySelector('#quantity8').value ==" " &&
+document.querySelector('#numbersOrder9').value ==" " &&
+document.querySelector('#quantity9').value ==" " &&
+document.querySelector('#numbersOrder10').value ==" " &&
+document.querySelector('#quantity10').value ==" " &&
+document.querySelector('#numbersOrder11').value ==" " &&
+document.querySelector('#quantity11').value ==" " &&
+document.querySelector('#numbersOrder12').value ==" " &&
+document.querySelector('#quantity12').value ==" " &&
+document.querySelector('#numbersOrder13').value ==" " &&
+document.querySelector('#quantity13').value ==" " &&
+document.querySelector('#numbersOrder14').value ==" " &&
+document.querySelector('#quantity14').value ==" " &&
+document.querySelector('#numbersOrder15').value ==" " &&
+document.querySelector('#quantity15').value ==" " &&
+document.querySelector('#numbersOrder16').value ==" " &&
+document.querySelector('#quantity16').value ==" " &&
+document.querySelector('#numbersOrder17').value ==" " &&
+document.querySelector('#quantity17').value ==" " &&
+document.querySelector('#numbersOrder18').value ==" " &&
+document.querySelector('#quantity18').value ==" " &&
+document.querySelector('#numbersOrder19A').value ==" " &&
+document.querySelector('#quantity19A').value ==" " &&
+document.querySelector('#numbersOrder19B').value ==" " &&
+document.querySelector('#quantity19B').value ==" " &&
+document.querySelector('#numbersOrder19C').value ==" " &&
+document.querySelector('#quantity19C').value ==" " &&
+document.querySelector('#numbersOrder20').value ==" " &&
+document.querySelector('#quantity20').value ==" " &&
+document.querySelector('#numbersOrder21').value ==" " &&
+document.querySelector('#quantity21').value ==" " &&
+document.querySelector('#numbersOrder22').value ==" " &&
+document.querySelector('#quantity22').value ==" " &&
+document.querySelector('#numbersOrder23').value ==" " &&
+document.querySelector('#quantity23').value ==" " &&
+document.querySelector('#numbersOrder24').value ==" " &&
+document.querySelector('#quantity24').value ==" " &&
+document.querySelector('#numbersOrder25').value ==" " &&
+document.querySelector('#quantity25').value ==" " &&
+document.querySelector('#numbersOrder26A').value ==" " &&
+document.querySelector('#quantity26A').value ==" " &&
+document.querySelector('#numbersOrder26B').value ==" " &&
+document.querySelector('#quantity26B').value ==" " &&
+document.querySelector('#numbersOrder26C').value ==" " &&
+document.querySelector('#quantity26C').value ==" " &&
+document.querySelector('#numbersOrder27A').value ==" " &&
+document.querySelector('#quantity27A').value ==" " &&
+document.querySelector('#numbersOrder27B').value ==" " &&
+document.querySelector('#quantity27B').value ==" " &&
+document.querySelector('#numbersOrder28').value ==" " &&
+document.querySelector('#quantity28').value ==" " &&
+document.querySelector('#numbersOrder29').value ==" " &&
+document.querySelector('#quantity29').value ==" " &&
+document.querySelector('#numbersOrder30').value ==" " &&
+document.querySelector('#quantity30').value ==" " &&
+document.querySelector('#numbersOrder31').value ==" " &&
+document.querySelector('#quantity31').value ==" " &&
+document.querySelector('#numbersOrder32').value ==" " &&
+document.querySelector('#quantity32').value ==" " &&
+document.querySelector('#numbersOrder33').value ==" " &&
+document.querySelector('#quantity33').value ==" " &&
+document.querySelector('#numbersOrder34').value ==" " &&
+document.querySelector('#quantity34').value ==" " &&
+document.querySelector('#numbersOrder35').value ==" " &&
+document.querySelector('#quantity35').value ==" " &&
+document.querySelector('#numbersOrder36').value ==" " &&
+document.querySelector('#quantity36').value ==" " &&
+document.querySelector('#numbersOrder37').value ==" " &&
+document.querySelector('#quantity37').value ==" " &&
+document.querySelector('#numbersOrder38').value ==" " &&
+document.querySelector('#quantity38').value ==" " &&
+document.querySelector('#numbersOrder39').value ==" " &&
+document.querySelector('#quantity39').value ==" " )
+{
+  displayInfo.style.display = "block";
+}
+else
+{
     
             const emailResponse = await Email.send({
               SecureToken: '',
               To: 'reservations@hollapolla.nl',
               From: 'reservations@hollapolla.nl',
-                  Subject: `Nowe zamówienie numer: ${orderCode}`,
+                  Subject: `Nowe zamówienie, kod zamówienia: ${orderCode}`,
                   Body: `
                    Kod zamówienia: ${orderCode}<br>
                       Nazwisko: ${name}<br>
@@ -1658,10 +1899,16 @@ document.querySelector('#ordersForm').addEventListener('submit', async function(
                          ${document.querySelector('#quantity24').value}
                          ${document.querySelector('#numbersOrder25').value}
                          ${document.querySelector('#quantity25').value}
-                         ${document.querySelector('#numbersOrder26').value}
-                         ${document.querySelector('#quantity26').value}
-                         ${document.querySelector('#numbersOrder27').value}
-                         ${document.querySelector('#quantity27').value}
+                         ${document.querySelector('#numbersOrder26A').value}
+                         ${document.querySelector('#quantity26A').value}
+                          ${document.querySelector('#numbersOrder26B').value}
+                         ${document.querySelector('#quantity26B').value}
+                        ${document.querySelector('#numbersOrder26C').value}
+                         ${document.querySelector('#quantity26C').value}
+                         ${document.querySelector('#numbersOrder27A').value}
+                         ${document.querySelector('#quantity27A').value}
+                              ${document.querySelector('#numbersOrder27B').value}
+                         ${document.querySelector('#quantity27B').value}
                          ${document.querySelector('#numbersOrder28').value}
                          ${document.querySelector('#quantity28').value}
                          ${document.querySelector('#numbersOrder29').value}
@@ -1690,14 +1937,14 @@ document.querySelector('#ordersForm').addEventListener('submit', async function(
                          
 
     Zgody: <br><br>
-                       zgoda0: I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose and to the extent necessary to process the application.<br>
-zgoda1: I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose of sending me commercial offers for the company's own products electronically.<br>
+                       zgoda0: I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose and to the extent necessary to process the application.<br><br>
+zgoda1: I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose of sending me commercial offers for the company's own products electronically.<br><br>
 zgoda3: I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose of telephone contact by the company's representatives in matters related to the commercial offer for its own products.
 
                         
                   `
               });
-
+            
               if (emailResponse === 'OK') {
                 orderSummaryBackground.style.display = "block";
                 orderCodeText.style.color = 'greenyellow';
@@ -1721,7 +1968,7 @@ zgoda3: I consent to the processing by HollaPolla of my personal data contained 
                    
                   },10000)
               }
-            
+            }            
 });
 
 

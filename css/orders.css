@@ -9,7 +9,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    
+
     color: #fff;
     z-index: 94;
     }
@@ -43,7 +43,7 @@ border-radius: 2%;
   
   .position0Value,.position1Value,.position2Value,.position3Value,.position4Value,.position5Value, .position6Value, .position7Value, .position8Value, .position9Value, 
   .position10Value, .position11Value, .position12Value, .position13Value, .position14Value,  .position15Value, .position16Value, .position17Value, .position18Value, .position19AValue, .position19BValue,.position19CValue,
-  .position20Value, .position21Value,   .position22Value,   .position23Value,   .position24Value,   .position25Value,   .position26Value,   .position27Value,   .position28Value, .position29Value, .position30Value, .position31Value, .position32Value, .position33Value, .position34Value, 
+  .position20Value, .position21Value,   .position22Value,   .position23Value,   .position24Value,   .position25Value,   .position26AValue,.position26BValue,.position26CValue,  .position27AValue, .position27BValue,   .position28Value, .position29Value, .position30Value, .position31Value, .position32Value, .position33Value, .position34Value, 
   .position35Value, .position36Value, .position37Value, .position38Value, .position39Value, 
   .position40Value, .position41Value, .position42Value, .position43Value, .position44Value, 
   .position45Value, .position46Value, .position47Value, .position48Value, .position49Value, 
