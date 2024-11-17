@@ -41,20 +41,7 @@ border-radius: 2%;
     z-index: 998;
   }
   
-  .position0Value,.position1Value,.position2Value,.position3Value,.position4Value,.position5Value, .position6Value, .position7Value, .position8Value, .position9Value, 
-  .position10Value, .position11Value, .position12Value, .position13Value, .position14Value,  .position15Value, .position16Value, .position17Value, .position18Value, .position19AValue, .position19BValue,.position19CValue,
-  .position20Value, .position21Value,   .position22Value,   .position23Value,   .position24Value,   .position25Value,   .position26AValue,.position26BValue,.position26CValue,  .position27AValue, .position27BValue,   .position28Value, .position29Value, .position30Value, .position31Value, .position32Value, .position33Value, .position34Value, 
-  .position35Value, .position36Value, .position37Value, .position38Value, .position39Value, 
-  .position40Value, .position41Value, .position42Value, .position43Value, .position44Value, 
-  .position45Value, .position46Value, .position47Value, .position48Value, .position49Value, 
-  .position50Value, .position51Value, .position52Value, .position53Value, .position54Value, 
-  .position55Value, .position56Value, .position57Value, .position58Value, .position59Value, 
-  .position60Value, .position61Value, .position62Value, .position63Value, .position64Value, 
-  .position65Value, .position66Value, .position67Value
-{
-color: #ffffff00!important;
-}
-  
+
   .fa
   {
     
@@ -90,14 +77,34 @@ color: #ffffff00!important;
     position: relative;
     width: 100%;
     margin-top: 5%;
-    height: 15.5vh; 
+    height: 10vh; 
     overflow: auto !important;
     text-align: center;
     border: solid 2px rgb(255, 255, 255) !important;
     left: 0;
   }
+.deleteOrder
+{
+  color: red;
+}
+.deleteOrder:hover
+{
+  color: rgb(243, 68, 68);
+}
 
   /* heder */
+  .boxOrderInfo
+  
+  {
+    margin-top: 2%;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+    display: flex;
+    width: 65%;
+    
+  }
+
   
   header {
   
@@ -619,7 +626,7 @@ textarea::placeholder {
 .textStatus
 {
   transform: translateX(-50%);
-  background-color: #4b4b4b;
+  background-color: #4b4b4b00;
   width: 90%;
 position: relative;
 margin-top: 5%;
@@ -640,16 +647,34 @@ margin: 1.5%;
 transform: translateX(-50%);
 top:2%;
 width: 46%;
-font-size:18px;
+font-size:20px;
 background-color: #4d4d4d;
 color:white;
 }
+
+
+.addQuantity,.deleteQuantity
+{
+  
+position: relative;
+margin-top: 1%;
+padding-left: 4%;
+
+font-size:10px;
+color:white;
+}
+.quantityLocation
+{
+  position: relative;
+
+  font-size:20px;
+}
+
 input[type=time] {
   position: relative;
   color: white;
 width: 85px;
 } 
-
 
 
 input[type="time"]::-webkit-calendar-picker-indicator {
@@ -1125,6 +1150,7 @@ height: 130px;
   padding-bottom: 0%;
   font-size: 17px;
   text-align: left;
+  
 
 }
   @media(max-width:1200px){
