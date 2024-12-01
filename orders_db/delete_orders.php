@@ -13,7 +13,7 @@ $display = $_POST['display'];
 }
 else
 {
-    $sql = "DELETE FROM orders";
+    $sql = "DELETE FROM orders WHERE data = '$display'";
 
 $orders =  $conn -> query($sql) -> fetch_all(MYSQLI_ASSOC); 
 
