@@ -20,6 +20,8 @@
 </head>
 
 <body>
+
+
 <div class="nav_headar">
   <div class="container">
     <nav class="navbar">
@@ -49,10 +51,9 @@
   
     </li>
     <li class="nav-item">
-  <a href="https://www.facebook.com/profile.php?id=61555700734528 " class="fa fa-facebook"></a>
+  <a href="https://www.facebook.com/profile.php?id=61555700734528" class="fa fa-facebook"></a>
   <a href="https://www.instagram.com/hollapolla66/?utm_source=qr&igsh=MXFzdG11cWE0OXhvNg%3D%3D" class="fa fa-instagram"></a>
   </li>
-
 
 
         </ul>
@@ -71,55 +72,56 @@
   
 <div class="orderSummary"> <div class="textStatus"> </div>
 <br>
-<div class="orderCodeText"> </div>
+<div class="codeNumber"> </div>
 
 </div>
   
 </div>
 
-<form id="ordersForm">
+<div id="ordersForm">
   <div class="information"></div><br> 
-  <input type="text" id="name" name="name" placeholder=" Last name" required>
-  <input type="email" id="email" name="email" placeholder="Email" required>
-  <input type="number" id="phone" name="phone" placeholder=" Phone" required>
-  <textarea    rows="2" cols="10"  id="addres" name="addres" placeholder=" Addres" required></textarea>
+  <input type="text" id="lastName" name="name" placeholder=" Last name" >
+  <input type="email" id="email" name="email" placeholder="Email"> 
+  <input type="number" id="phone" name="phone" placeholder=" Phone" >
+  <textarea    rows="2" cols="10"  id="addres" name="addres" placeholder=" Addres"  ></textarea>
+
   <div id="contenerOrderInfo">
+  
     <div class="boxOrderInfo">
-    <div class="numbersOrderLocation"></div>
-    <div class="quantityLocation"></div>
-    <div class="addQuantity"></div>
-    <div class="deleteQuantity"></div>
-  </div>
+      
+    <div class="numbersOrderLocation">Numbers order</div>
+    <div class="quantityLocation">Quantity</div>
+    
   </div>
   </div>
 
-  <div class="information deleteOrder">Delete all ordres</div>
+
   <div class="information display" style="color: #ff0000; font-size: 12px;">To send an order, click on the name of the dish on the menu or enter the dish number in the message.</div>
 
 
 <textarea    rows="4" cols="10"    id="message" name="message" placeholder=" Message"></textarea>
 
 <!-- <div class="information " style=" font-size: 15px;display: flex; padding: 1%; left: 35%;">Total payment €<b class="totalpayment" style="color: #009e20;">0</b>.<div style="color: #009e20; "><b>00</b></div></div> -->
-  <input type="submit" id="submit" value=" Submit">
+  <input type="submit" id="submit" value="submit">
 
   <div class="information" style="color: #be8040;">Accept the rules to send</div> 
   <label class="containerCheck">I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose and to the extent necessary to process the application.
-    <input type="checkbox"  name="checkbox" required>
+    <input type="checkbox"  name="checkbox" >
     <span class="checkmark"></span>
   </label>
   <label class="containerCheck">I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose of sending me commercial offers for the company's own products electronically.
-    <input type="checkbox" name="checkbox" required>
+    <input type="checkbox" name="checkbox" >
     <span class="checkmark"></span>
   </label>
   <label class="containerCheck"> I consent to the processing by HollaPolla of my personal data contained in this contact form for the purpose of telephone contact by the company's representatives in matters related to the commercial offer for its own products.
-    <input type="checkbox" name="checkbox" required>
+    <input type="checkbox" name="checkbox" >
     <span class="checkmark"></span>
   </label>
 
   </div> 
 
-</form>
-
+</div>
+</div>
 <div id="contenerImage">
   <div class="information">When ordering through our website you will receive a <b   style="color: #be8040;">10%</b> discount. For orders over<b   style="color:#f4d135"> €50 free delivery</b>, under €4.<br> Payment can be made upon receipt of the order.  Payment by <b   style="color: #be8040;">card </b>or <b   style="color: #009e20;">cash</b>.<br><br>Click on the name of a <b  style="color:#f4d135">dish </b>in the menu to add it to your order.</div> <br>
   <svg id="imageOrdersSvg0" version="1.0" xmlns="http://www.w3.org/2000/svg"

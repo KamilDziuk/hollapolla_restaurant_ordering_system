@@ -83,14 +83,6 @@ border-radius: 2%;
     border: solid 2px rgb(255, 255, 255) !important;
     left: 0;
   }
-.deleteOrder
-{
-  color: red;
-}
-.deleteOrder:hover
-{
-  color: rgb(243, 68, 68);
-}
 
   /* heder */
   .boxOrderInfo
@@ -553,6 +545,8 @@ z-index: 3;
 
 
 
+
+
     margin-top: 725%;
     width: 100% !important;
     height: auto;
@@ -563,23 +557,22 @@ z-index: 3;
 
 
 
-
-
-  form
+#ordersForm
 {
-position: fixed;
+  position: fixed;
 
-background-color: #26262632;
-backdrop-filter : blur(15px);
-left: 70%;
-transform: translateX(-50%);
-margin-bottom: 0%;
-width: 350px;
-margin-top: 7%;
-z-index: 22 !important;
-
-
+  background-color: #26262632;
+  backdrop-filter : blur(15px);
+  left: 70%;
+  transform: translateX(-50%);
+  margin-bottom: 0%;
+  width: 350px;
+  margin-top: 7%;
+  z-index: 22 !important;
+  
 }
+
+
 
 
 svg path {
@@ -653,22 +646,7 @@ color:white;
 }
 
 
-.addQuantity,.deleteQuantity
-{
-  
-position: relative;
-margin-top: 1%;
-padding-left: 4%;
 
-font-size:10px;
-color:white;
-}
-.quantityLocation
-{
-  position: relative;
-
-  font-size:20px;
-}
 
 input[type=time] {
   position: relative;
@@ -1254,21 +1232,20 @@ height: 130px;
      
     
 
+#ordersForm
 
+{
+  position: relative;
+  text-align: center;
+  background-color: #26262632;
+  backdrop-filter : blur(15px);
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 0%;
+  width: 250px;
+  margin-top: 35%;
+}
 
-      form
-      {
-      position: relative;
-      text-align: center;
-      background-color: #26262632;
-      backdrop-filter : blur(15px);
-      left: 50%;
-      transform: translateX(-50%);
-      margin-bottom: 0%;
-      width: 250px;
-      margin-top: 35%;
-      
-      }
 
 
 input,textarea
