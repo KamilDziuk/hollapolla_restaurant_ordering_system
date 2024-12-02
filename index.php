@@ -80,7 +80,7 @@
 
 <div id="ordersForm">
   <div class="information"></div><br> 
-  <input type="text" id="lastName" name="name" placeholder=" Last name" >
+  <input type="text" id="first_name" placeholder=" Last name" >
   <input type="email" id="email" name="email" placeholder="Email"> 
   <input type="number" id="phone" name="phone" placeholder=" Phone" >
   <textarea    rows="2" cols="10"  id="addres" name="addres" placeholder=" Addres"  ></textarea>

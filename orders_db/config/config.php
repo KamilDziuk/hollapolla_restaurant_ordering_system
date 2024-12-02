@@ -1,17 +1,27 @@
-<?php 
-$config = array(
 
+
+
+<?php
+
+$config = array(
     'servername' => '',
     'username' => '',
     'password' => '',
     'dbname' => ''
 );
 
-$servername = $config['servername'];
-$username = $config['username'];
-$password = $config['password'];
-$dbname = $config['dbname'];
+try {
+ 
+    $dsn = "mysql:host=" . $config['servername'] . ";dbname=" . $config['dbname'] . ";charset=utf8mb4";
+    $pdo = new PDO($dsn, $config['username'], $config['password']);
 
-$conn = new mysqli($servername, $username, $password, $dbname);
 
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+
+    echo "Połączenie udane!";
+} catch (PDOException $e) {
+  
+    echo "Błąd połączenia: " . $e->getMessage();
+}
 ?>

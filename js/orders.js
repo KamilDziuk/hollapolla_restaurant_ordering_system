@@ -84,9 +84,9 @@ let s = addZero(date.getSeconds());
 let fullTime = h + ":" + m + ":" + s;
 document.querySelector('#submit').addEventListener('click',  () => {
 
-let data = currentDateResult;
-let time = fullTime;
-let lastName = document.querySelector("#lastName").value;
+let order_date = currentDateResult;
+let order_time = fullTime;
+let first_name = document.querySelector("#first_name").value;
 let email = document.querySelector("#email").value;
 let addres = document.querySelector("#addres").value;
 let message = document.querySelector("#message").value;
@@ -106,12 +106,12 @@ formData.append('codeNumber',orderCodeValue);
 
     formData.append('quantity', quantity);
 
-formData.append('lastName',lastName);
+formData.append('first_name',first_name);
   formData.append('message',message);
 formData.append('email',email);
 formData.append('addres',addres);
-formData.append('data',data);
-formData.append('time',time);
+formData.append('order_date',order_date);
+formData.append('order_time',order_time);
 
     fetch("orders_db/adding_orders.php",{
 

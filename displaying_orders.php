@@ -23,7 +23,7 @@ let orders =  <?php echo json_encode($orders)  ?>
 
 
 let display =  orders.map( allOrders => {
-    return `${allOrders.data}`;
+    return `${allOrders.order_date}`;
 })
 
 
@@ -32,11 +32,11 @@ let displayOrders =  orders.map( displayOrders => {
    codeNumber: ${displayOrders.orderNumber}<br>
     orderNumber: ${displayOrders.codeNumber}<br>
   quantity: ${displayOrders.quantity}<br>
-  lastName: ${displayOrders.lastName}<br>
+  first_name: ${displayOrders.first_name}<br>
   email: ${displayOrders.email}<br>
    addres: ${displayOrders.addres}<br>
-  data: ${displayOrders.data}<br>
-  time: ${displayOrders.time}<br>
+  order_date: ${displayOrders.order_date}<br>
+  order_time: ${displayOrders.order_time}<br>
    message: ${displayOrders.message}<br><br>`;
 }).join(`\n`)
 
@@ -55,7 +55,7 @@ body: formDataDate
 
 setInterval(() => {
     location.reload();
-},50000)
+},15000)
 </script>
 </body>
 </html>
