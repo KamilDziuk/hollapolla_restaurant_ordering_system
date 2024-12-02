@@ -15,9 +15,11 @@ $message= $_POST['message'];
 
 $sql = "INSERT INTO orders (codeNumber, orderNumber, quantity, first_name, email, addres, order_date, order_time, message) 
 VALUES (  '$codeNumber', '$orderNumber','$quantity', '$first_name', '$email', '$addres','$order_date' ,'$order_time', '$message')";
-if($conn -> query($sql) === TRUE)
+if($stmt = $pdo->query($sql)=== TRUE)
 {
 
 }
 
 ?>
+
+

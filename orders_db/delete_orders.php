@@ -15,9 +15,13 @@ else
 {
     $sql = "DELETE FROM orders WHERE order_date = '$display'";
 
-$orders =  $conn -> query($sql) -> fetch_all(MYSQLI_ASSOC); 
+$orders = $stmt = $pdo->query($sql) -> fetchAll(MYSQLI_ASSOC); 
 
 
 };
-$conn -> close();
+
 ?>
+
+
+
+
