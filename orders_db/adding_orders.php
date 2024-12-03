@@ -11,15 +11,20 @@ $order_date = $_POST['order_date'];
 $order_time = $_POST['order_time'];
 $message= $_POST['message'];
 
-
+try {
+    
 
 $sql = "INSERT INTO orders (codeNumber, orderNumber, quantity, first_name, email, addres, order_date, order_time, message) 
 VALUES (  '$codeNumber', '$orderNumber','$quantity', '$first_name', '$email', '$addres','$order_date' ,'$order_time', '$message')";
-if($stmt = $pdo->query($sql)=== TRUE)
-{
+ $stmt = $pdo->prepare($sql);
+ 
+ $stmt->execute();
 
+
+ $orders = $stmt->fetchAll(PDO::FETCH_ASSOC);
+} catch (PDOException $e) {
+
+    echo "Error adding to MySQL database" . $e->getMessage();
 }
-
 ?>
-
 
