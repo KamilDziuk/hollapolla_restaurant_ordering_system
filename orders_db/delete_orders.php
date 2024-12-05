@@ -6,15 +6,9 @@ $display = $_POST['display'];
 
 try{
 
-    if($currentDateResult === $display)
-    {
 
-
-}
-else
-{
    
-    $sql = "DELETE FROM orders WHERE order_date = '$display'";
+    $sql = "DROP TABLE orders";
 
     $stmt = $pdo->prepare($sql);
  
@@ -24,7 +18,6 @@ else
     $orders = $stmt->fetchAll(PDO::FETCH_ASSOC);
  
 
-};
 
 } catch (PDOException $e) {
    
