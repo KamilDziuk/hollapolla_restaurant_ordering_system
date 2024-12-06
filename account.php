@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Login</title>
 </head>
 <body>
-<H1> Update account</H1>
-    <form action="adding_user.php" method="post">
-<input type="text" name="first_name">
-<input type="password" name="pwd">
-<input type="text" name="email">
+<H1>Login</H1>
+<form action="account_db/adding_user.php" method="post">
+first_name <input type="text" name="first_name"><br>
+password <input type="password" name="pwd"><br>
+email <input type="text" name="email"><bt>
 <input type="submit" name="submit">
-    </form>
-
+</form>
 </body>
 </html>
 
