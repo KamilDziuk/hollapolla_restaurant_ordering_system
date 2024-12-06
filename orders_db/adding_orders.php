@@ -24,7 +24,9 @@ VALUES (  '$codeNumber', '$orderNumber','$quantity', '$first_name', '$email', '$
  $orders = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
- 
+ $stmt = null;
+ $pdo = null;
+ die();
 } catch (PDOException $e) {
 
     echo "Error adding to MySQL database" . $e->getMessage();

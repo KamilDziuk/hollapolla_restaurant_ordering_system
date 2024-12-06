@@ -11,8 +11,10 @@ try {
 
 
     $orders = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-
+ 
+    $stmt = null;
+    $pdo = null;
+ 
 } catch (PDOException $e) {
 
     echo "Error downloading to MySQL database" . $e->getMessage();
