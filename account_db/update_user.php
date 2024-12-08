@@ -1,5 +1,5 @@
 <?php 
-require "orders_db/config/config.php";
+require_once "../config/config.php";
 
 if($_SERVER['REQUEST_METHOD'] == "POST" )
 
@@ -11,7 +11,7 @@ $upadte_first_name = $_POST['upadte_first_name'];
 
 try
 {
-   
+    require "../change_account.php";
 $sql ="UPDATE users SET first_name = :first_name, pwd = :pwd, email = :email WHERE first_name = :upadte_first_name  ";
 
 $stmt = $pdo -> prepare( $sql);
@@ -41,7 +41,7 @@ catch(PDOException $e)
 }
 else
 {
-
+    require "../change_account.php";
 };
 
 

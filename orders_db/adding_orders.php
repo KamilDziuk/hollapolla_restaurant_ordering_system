@@ -1,5 +1,5 @@
 <?php  
-require "config/config.php";
+require_once "../config/config.php";
 
 $codeNumber = $_POST['codeNumber'];
 $orderNumber = $_POST['orderNumber'];

@@ -1,5 +1,5 @@
 <?php 
-require "orders_db/config/config.php";
+require_once "../config/config.php";
 
 if($_SERVER['REQUEST_METHOD'] == "POST" )
 
@@ -11,7 +11,7 @@ $email = $_POST['email'];
 try
 {
    
-
+    require "../account.php";
 
 $sql ="INSERT INTO users (first_name, pwd, email)  VALUES (:first_name, :pwd, :email);";
 
@@ -40,7 +40,7 @@ catch(PDOException $e)
 }
 else
 {
-
+    require "../account.php";
 };
 
 

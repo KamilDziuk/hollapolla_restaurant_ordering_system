@@ -1,5 +1,5 @@
 <?php 
-require "orders_db/config/config.php";
+require_once "../config/config.php";
 
 if($_SERVER['REQUEST_METHOD'] == "POST" )
 
@@ -12,7 +12,7 @@ try
 {
    
 
-
+    require "../change_account.php";
 
 $sql ="DELETE FROM users WHERE first_name = :first_name AND  pwd = :pwd ";
 $stmt = $pdo -> prepare( $sql);
@@ -37,7 +37,7 @@ catch(PDOException $e)
 }
 else
 {
-
+    require "../change_account.php";
 };
 
 
