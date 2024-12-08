@@ -7,7 +7,7 @@
 </head>
 <body>
     <div id="printOrders"></div>
-<?php require "../orders_db/get_orders.php";
+<?php require "orders_db/get_orders.php";
 
 ?>
 <script>
