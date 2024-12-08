@@ -1,3 +1,8 @@
+<?php     
+
+require_once "config/session.php";
+?>
+
 
 <!DOCTYPE html>
 <html lang="en" >
@@ -344,5 +349,7 @@
 <!-- email  connect end -->
 <script src="js/orders.js" defer></script>
 <script src="js/script.js" defer></script>
+
+
 </body>
 </html>
