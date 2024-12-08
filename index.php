@@ -70,9 +70,13 @@
 
 <div class="orderSummaryBackground">
   
-<div class="orderSummary"> <div class="textStatus"> </div>
-<br>
+<div class="orderSummary">
 <div class="codeNumber"> </div>
+
+<div class="textStatus">
+   </div>
+
+
 
 </div>
   

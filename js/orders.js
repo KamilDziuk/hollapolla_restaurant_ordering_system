@@ -26,7 +26,6 @@ orderSummaryBackground.style.display = "none";
 
  let orderCounter = setInterval(() => {
 orderCodeValue = Math.floor(Math.random() * 100);
-codeNumber.innerHTML = `Order code: ${orderCodeValue}`;
 },1000);
 
 
@@ -55,9 +54,6 @@ const quantityElement = document.createElement('div');
 positionElement.innerHTML = ` <input type="text" id="numbersOrder" name="numbersOrder" placeholder="Numbers order" value=" ${orderNumber}">`;
 
 quantityElement.innerHTML = ` <input type="number" id="quantity${orderNumber}"  value="1">`;
-  
-  
-
 
 
 
@@ -94,7 +90,12 @@ let message = document.querySelector("#message").value;
 
 let quantity = document.querySelector(`#quantity${orderNumber}`).value;
 
-
+textStatus.innerHTML = `
+ First Name: ${first_name}<br>
+ Email: ${email}<br>
+Addres: ${addres}<br>
+Date:   ${currentDateResult}<br>
+Time: ${fullTime}<br>`;
 
 
 let formData = new FormData();
@@ -147,9 +148,8 @@ document.querySelectorAll('.position').forEach( (position, index) => {
 
 
   orderSummaryBackground.style.display = "block";
-  codeNumber.style.color = 'greenyellow';
-  textStatus.innerHTML = `Your order has been accepted!`;
 
+  codeNumber.innerHTML = ` Your order has been accepted!<br>Order code: ${ orderCodeValue }`;
 
 
   setTimeout( () => {
