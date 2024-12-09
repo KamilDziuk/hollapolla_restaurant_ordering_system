@@ -5,8 +5,6 @@
 
 
 <?php
-
-
 try{
 
     $dbhost = '';

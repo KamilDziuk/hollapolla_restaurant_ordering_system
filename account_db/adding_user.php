@@ -8,6 +8,17 @@ if($_SERVER['REQUEST_METHOD'] == "POST" )
 $pwd = $_POST['pwd'];
 $email = $_POST['email'];
  
+
+
+$pwdSignup = $pwd;
+
+$options  =
+[
+"cost" => 12
+];
+
+$hashedPwd =  password_hash($pwdSignup , PASSWORD_BCRYPT, $options);
+
 try
 {
    
@@ -19,7 +30,7 @@ $stmt = $pdo -> prepare( $sql);
 
 $stmt -> bindParam(":first_name", $first_name);
 
-$stmt -> bindParam(":pwd", $pwd);
+$stmt -> bindParam(":pwd", $hashedPwd);
 
 $stmt -> bindParam(":email", $email);
 
