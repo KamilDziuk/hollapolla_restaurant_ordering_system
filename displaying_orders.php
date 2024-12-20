@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/displaying_orders.css">
     <title>Displaying Orders</title>
 </head>
 <body>
+<div id="printOrdersBox">
     <div id="printOrders"></div>
+    </div>
 <?php require "orders_db/get_orders.php";
 
 ?>
@@ -28,16 +31,16 @@ let display =  orders.map( allOrders => {
 
 
 let displayOrders =  orders.map( displayOrders => {
-    return `<br><br>
-   codeNumber: ${displayOrders.orderNumber}<br>
-    orderNumber: ${displayOrders.codeNumber}<br>
-  quantity: ${displayOrders.quantity}<br>
-  first_name: ${displayOrders.first_name}<br>
-  email: ${displayOrders.email}<br>
-   addres: ${displayOrders.addres}<br>
-  order_date: ${displayOrders.order_date}<br>
-  order_time: ${displayOrders.order_time}<br>
-   message: ${displayOrders.message}<br><br>`;
+    return `<br>|<br> 
+   codeNumber: ${displayOrders.codeNumber},<br>
+    orderNumber: ${displayOrders.orderNumber},<br>
+  quantity: ${displayOrders.quantity},<br>
+  first_name: ${displayOrders.first_name},<br>
+  email: ${displayOrders.email},<br>
+   addres: ${displayOrders.addres},<br>
+  order_date: ${displayOrders.order_date},<br>
+  order_time: ${displayOrders.order_time},<br>
+   message: ${displayOrders.message} <br> |`;
 }).join(`\n`)
 
 document.querySelector("#printOrders").innerHTML = displayOrders;

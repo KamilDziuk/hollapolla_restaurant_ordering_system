@@ -1,0 +1,56 @@
+body {
+    
+    margin: 0;
+
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/image/background-image-displaying_orders.png");
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+    z-index: 94;
+    }
+    #printOrdersBox
+    {
+
+        display: flex ;
+        position: relative;
+    }
+    #printOrders
+    {
+        transform: translateX(-50%);
+        left: 50%;
+        position: relative;
+        padding: 1%;
+     font-size: 25px;
+        background-color: #2424246a;
+        color: #fff;
+        border: solid 2px rgb(255, 255, 255);
+        border-radius: 2%;
+
+        z-index: 95;
+    }
+
+
+    @media(max-width:400px){
+        #printOrders
+        {
+    
+         font-size: 17px;
+
+        }
+        
+        }  
+
+        @media(max-width:250px){
+            #printOrders
+            {
+        
+             font-size: 17px;
+    
+            }
+            
+            }  
