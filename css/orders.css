@@ -559,7 +559,7 @@ z-index: 3;
 
 #ordersForm
 {
-  position: fixed;
+  position:absolute;
 
   background-color: #26262632;
   backdrop-filter : blur(15px);

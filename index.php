@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/orders.css">
+
   <link rel="icon" type="image/png" href="image/browserpictogram.png">
   <link rel="apple-touch-icon" href="image/icon-96x96.png">
   <link rel="apple-touch-icon" sizes="152x152" href="image/icon-152x152.png">
@@ -107,7 +108,6 @@
 
 <textarea    rows="4" cols="10"    id="message" name="message" placeholder=" Message"></textarea>
 
-<!-- <div class="information " style=" font-size: 15px;display: flex; padding: 1%; left: 35%;">Total payment €<b class="totalpayment" style="color: #009e20;">0</b>.<div style="color: #009e20; "><b>00</b></div></div> -->
   <input type="submit" id="submit" value="submit">
 
   <div class="information" style="color: #be8040;">Accept the rules to send</div> 
@@ -330,15 +330,10 @@
 <img id="imageOrders3" src="image/(niderlandzki) (angielski) (5)_20240607_120141_0004.png">
 <img id="imageOrders4" src="image/(niderlandzki) (angielski) (6)_20240607_120141_0005.png">
 <img id="imageOrders5" src="image/(niderlandzki) (angielski) (7)_20240607_120141_0006.png">
-<!-- <img id="imageOrders6" src="image/(niderlandzki) (angielski) (8)_20240607_120141_0007.png"> -->
+
 
 </div>
-<!-- <footer>
-  <section id="contact"></section>
-  <div class="textLocation"><b>Lokalizacja</b><br><br>Wilhelminapark 66, 5041 ED Tilburg, Holandia<br></div>
-  <div class="textContact"><b>Kontakt</b><br><br>Email: hollapolla66@gmail.com<br>Phone: + 31 6 58723606<br></div>
-  <div class="textInformation"><b>Informacije</b><br><br>kvk: 92146872<br></div>
-</footer> -->
+
 
 
 <!-- email  connect start -->
