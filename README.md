@@ -1,6 +1,6 @@
 
 # Hollapolla Orders  
-
+![presentation](image/presentation.gif)
 Hollapolla Orders is an online food ordering system available at [orders.hollapolla.nl](http://orders.hollapolla.nl). The application allows customers to browse the menu and place orders through an online form.  
 
 ## Features  
@@ -17,9 +17,5 @@ This project uses:
 - **JavaScript** – Dynamic handling of the order form.  
 - **CSS** – Styling of the user interface.  
 
-## Demo  
-A preview of the system in action can be seen in an animated GIF available in the repository:  
-```
-image/presentation.gif
-```  
+
 
