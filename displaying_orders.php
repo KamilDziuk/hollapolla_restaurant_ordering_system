@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/displaying_orders.css">
     <link rel="stylesheet" type="text/css" href="css/orders.css">
+    <link rel="icon" type="image/png" href="image/browserpictogram.png">
+  <link rel="apple-touch-icon" href="image/icon-96x96.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="image/icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="image/icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="image/icon-180x180.png">
+  <link rel="manifest" href="manifest.json">
+  
     <title>Displaying Orders</title>
 </head>
 <body>
@@ -15,12 +22,13 @@
   
 
 
-<img id="imageOrders0" src="image/(niderlandzki) (angielski) (2)_20240607_120140_0001.png">
-<img id="imageOrders1" src="image/(niderlandzki) (angielski) (3)_20240607_120140_0002.png">
-<img id="imageOrders2" src="image/(niderlandzki) (angielski) (4)_20240607_120141_0003.png">
-<img id="imageOrders3" src="image/(niderlandzki) (angielski) (5)_20240607_120141_0004.png">
-<img id="imageOrders4" src="image/(niderlandzki) (angielski) (6)_20240607_120141_0005.png">
-<img id="imageOrders5" src="image/(niderlandzki) (angielski) (7)_20240607_120141_0006.png">
+<img id="imageOrders0"  src="image/menu_image_nl_0.webp">
+<img id="imageOrders1"  src="image/menu_image_nl_1.webp">
+<img id="imageOrders2"  src="image/menu_image_nl_2.webp">
+<img id="imageOrders3"  src="image/menu_image_nl_3.webp">
+<img id="imageOrders4"  src="image/menu_image_nl_4.webp">
+<img id="imageOrders5"  src="image/menu_image_nl_5.webp">
+
 
 
 </div>
