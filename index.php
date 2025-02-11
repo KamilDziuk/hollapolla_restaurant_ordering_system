@@ -1,12 +1,14 @@
 
 
 
+
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
   <title>HollaPolla - Orders</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/orders.css">
 
@@ -19,7 +21,7 @@
   
   
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
@@ -28,7 +30,7 @@
 <div class="nav_headar">
   <div class="container">
     <nav class="navbar">
-      <a href="https://hollapolla.nl/" class="nav-logo"><img    class="logoHP"  src="/image/logoHP.png">  </a>
+      <a href="https://hollapolla.nl/" class="nav-logo"><img    class="logoHP"  src="image/logoHP.webp">  </a>
       <ul class="nav-menu">
 
          <li class="nav-item">
@@ -42,17 +44,18 @@
 </li>
 
 <li class="nav-item">
-  <a href="https://reservations.hollapolla.nl" class="nav-link" id="openReservations"   style="color:#be8040"    ><b>Table reservation EN</b></a>        
-</li>
+  <a href="https://reservations.hollapolla.nl/" class="nav-link" id="openReservation"   style="color:#be8040"    >Reservations</a>        
+   </li>
+  <li class="nav-item">
+    <a href="https://orders.hollapolla.nl/" class="nav-link" id="openReservations"   style="color:#f4d135"    >Orders online</a>        
+  </li>
 
 <li class="nav-item">
   <a style="color:#cdcdcd"   onclick="window.location.href='tel:+31 6 58723606'">+31 6 58723606</a>    
 </li>
 
 
-<li class="nav-item">
-  
-    </li>
+
     <li class="nav-item">
   <a href="https://www.facebook.com/profile.php?id=61555700734528" class="fa fa-facebook"></a>
   <a href="https://www.instagram.com/hollapolla66/?utm_source=qr&igsh=MXFzdG11cWE0OXhvNg%3D%3D" class="fa fa-instagram"></a>
@@ -321,15 +324,12 @@
  </g>
  </svg>
  
-
-
-
-<img id="imageOrders0" src="image/(niderlandzki) (angielski) (2)_20240607_120140_0001.png">
-<img id="imageOrders1" src="image/(niderlandzki) (angielski) (3)_20240607_120140_0002.png">
-<img id="imageOrders2" src="image/(niderlandzki) (angielski) (4)_20240607_120141_0003.png">
-<img id="imageOrders3" src="image/(niderlandzki) (angielski) (5)_20240607_120141_0004.png">
-<img id="imageOrders4" src="image/(niderlandzki) (angielski) (6)_20240607_120141_0005.png">
-<img id="imageOrders5" src="image/(niderlandzki) (angielski) (7)_20240607_120141_0006.png">
+<img id="imageOrders0"  src="image/menu_image_nl_0.webp">
+<img id="imageOrders1"  src="image/menu_image_nl_1.webp">
+<img id="imageOrders2"  src="image/menu_image_nl_2.webp">
+<img id="imageOrders3"  src="image/menu_image_nl_3.webp">
+<img id="imageOrders4"  src="image/menu_image_nl_4.webp">
+<img id="imageOrders5"  src="image/menu_image_nl_5.webp">
 
 
 </div>
